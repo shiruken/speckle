@@ -23,4 +23,5 @@ MATLAB functions for calculating spatial and temporal speckle contrast for perfo
 
 ## Resources
 
+* [Functional Optical Imaging Laboratory (FOIL)](https://foil.bme.utexas.edu/)
 * [D. Boas and A. Dunn, Laser speckle contrast imaging in biomedical optics. _Journal of Biomedical Optics_ (2010)](https://doi.org/10.1117/1.3285504)
