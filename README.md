@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6657812.svg)](https://doi.org/10.5281/zenodo.6657812)
+
 # Calculate Speckle Contrast
 
 MATLAB functions for calculating spatial and temporal speckle contrast for performing [laser speckle contrast imaging](https://foil.bme.utexas.edu/project/laser-speckle-contrast-imaging/). Code developed for the [Functional Optical Imaging Laboratory (FOIL)](https://foil.bme.utexas.edu/) at the University of Texas at Austin.
@@ -20,6 +22,27 @@ MATLAB functions for calculating spatial and temporal speckle contrast for perfo
 * `sc` - Matrix containing the calculated speckle contrast.
   * The output of [`spatial_speckle_contrast`](spatial_speckle_contrast.m) will be an `MxNxn` matrix. _Note: The outer `w/2` edge of pixels will contain unreliable information due to padding._
   * The output of [`temporal_speckle_contrast`](temporal_speckle_contrast.m) will be an `MxNx(n-w+1)` matrix.
+
+## Citation
+
+> Colin Sullender. Calculate Speckle Contrast. (2022) doi:10.5281/zenodo.6657812.
+
+<details><summary>BibTeX</summary>
+
+```bibtex
+@software{sullender:10.5281/zenodo.6657812,
+  author       = {Colin Sullender},
+  title        = {Calculate Speckle Contrast},
+  month        = jun,
+  year         = 2022,
+  publisher    = {Zenodo},
+  version      = {v1},
+  doi          = {10.5281/zenodo.6657812},
+  url          = {https://doi.org/10.5281/zenodo.6657812}
+}
+```
+
+</details>
 
 ## Resources
 
