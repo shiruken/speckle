@@ -18,8 +18,8 @@ MATLAB functions for calculating spatial and temporal speckle contrast for perfo
 ## Output
 
 * `sc` - Matrix containing the calculated speckle contrast.
-  * The output of [`spatial_speckle_contrast(raw,w)`](spatial_speckle_contrast.m) will be an `MxNxn` matrix. _Note: The outer `w/2` edge of pixels will contain unreliable information due to padding._
-  * The output of [`temporal_speckle_contrast(raw,w)`](temporal_speckle_contrast.m) will be an `MxNx(n-w+1)` matrix.
+  * The output of [`spatial_speckle_contrast`](spatial_speckle_contrast.m) will be an `MxNxn` matrix. _Note: The outer `w/2` edge of pixels will contain unreliable information due to padding._
+  * The output of [`temporal_speckle_contrast`](temporal_speckle_contrast.m) will be an `MxNx(n-w+1)` matrix.
 
 ## Resources
 
