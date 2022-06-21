@@ -23,6 +23,15 @@ MATLAB functions for calculating spatial and temporal speckle contrast for perfo
   * The output of [`spatial_speckle_contrast`](spatial_speckle_contrast.m) will be an `MxNxn` matrix. _Note: The outer `w/2` edge of pixels will contain unreliable information due to padding._
   * The output of [`temporal_speckle_contrast`](temporal_speckle_contrast.m) will be an `MxNx(n-w+1)` matrix.
 
+## Benchmarking
+
+Tested performance on PC running Windows 10 with Intel i7-9700K CPU and NVIDIA GeForce RTX 2060 GPU with `1200x1000x1000` dataset.
+
+|                             |  w |   CPU   |   GPU   |
+|----------------------------:|:--:|:-------:|:-------:|
+|  `spatial_speckle_contrast` |  7 |  39 fps | 106 fps |
+| `temporal_speckle_contrast` | 49 | 8.6 fps |  10 fps |
+
 ## Citation
 
 > Colin Sullender. Calculate Speckle Contrast. (2022) doi:10.5281/zenodo.6657812.
